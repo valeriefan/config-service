@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bookshop.config_service.ConfigServiceApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-13T14:16:41" hostname="ValeriedeMacBook-Pro.local" time="0.347">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.bookshop.config_service.ConfigServiceApplicationTests" time="0.347"/>
+  <system-out><![CDATA[22:16:40.406 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.bookshop.config_service.ConfigServiceApplicationTests]: ConfigServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:16:40.448 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.bookshop.config_service.ConfigServiceApplication for test class com.bookshop.config_service.ConfigServiceApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2024-11-13T22:16:40.653+08:00  INFO 83554 --- [config-service] [    Test worker] c.b.c.ConfigServiceApplicationTests      : Starting ConfigServiceApplicationTests using Java 17.0.13 with PID 83554 (started by valeriefan in /Users/valeriefan/Desktop/config-service)
+2024-11-13T22:16:40.654+08:00  INFO 83554 --- [config-service] [    Test worker] c.b.c.ConfigServiceApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-11-13T22:16:41.006+08:00  INFO 83554 --- [config-service] [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0fb35c1b-e5b1-3784-9015-b0b3c9718af1
+2024-11-13T22:16:41.188+08:00  INFO 83554 --- [config-service] [    Test worker] c.b.c.ConfigServiceApplicationTests      : Started ConfigServiceApplicationTests in 0.676 seconds (process running for 1.159)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
