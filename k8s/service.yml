@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: config-service
+  name: order-service
   labels:
-    app: config-service
+    app: order-service
 spec:
   type: ClusterIP
   selector:
-    app: config-service
+    app: order-service
   ports:
   - protocol: TCP
     port: 80
-    targetPort: 8888
+    targetPort: 9002
